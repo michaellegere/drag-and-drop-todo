@@ -1,0 +1,40 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border: 0.5rem solid seagreen;
+    border-radius: 20px;
+    width: 60%;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.draggable {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+    cursor: move;
+}
+
+.draggable.dragging {
+    opacity: 0.5;
+}
+
+.dark-mode {
+    color: white;
+    background-color: #262934;
+}
+
+.dark-mode > .container {
+    background-color: #212121; 
+}
+
+.dark-mode > p.draggable {
+    background-color: black !important!;
+}

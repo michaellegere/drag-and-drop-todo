@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>To Do</title>
+</head>
+
+<body>
+
+    <button class="button" onclick="myFunction()">Dark Mode On/Off</button>
+
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+
+    <div class="container">
+        <h3>To Do</h3>
+        <p class="draggable" draggable="true">1</p>
+        <p class="draggable" draggable="true">2</p>
+    </div>
+    <div class="container">
+        <h3>In Progress</h3>
+        <p class="draggable" draggable="true">3</p>
+        <p class="draggable" draggable="true">4</p>
+    </div>
+    <div class="container">
+        <h3>Done</h3>
+        <p class="draggable" draggable="true">3</p>
+        <p class="draggable" draggable="true">4</p>
+    </div>
+
+</body>
+</html>
